@@ -36,14 +36,19 @@ function calculate (event) {
  rightContainer.appendChild(paragraph);
 }
 
+
+
+//QuerySelector color change
 const h1 = document.querySelectorAll("h1");
 
 h1.forEach(function(h1) {
+//on hover
     h1.addEventListener("mouseenter", function() {
 
     h1.style.backgroundColor = "red";
 })
 
+//off hover
 h1.addEventListener("mouseleave", function() {
 
     h1.style.backgroundColor = "";
