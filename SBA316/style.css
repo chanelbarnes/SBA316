@@ -1,0 +1,17 @@
+.topConatiner{
+    border: solid red;
+    height: 60vh;
+    display: flex;
+}
+.calculator{
+    border: solid black;
+    padding: 1em;
+    width: 30vw;
+    height: 40vh;
+}
+.rightContainer{
+    border: solid blue;
+    padding: 1em;
+    width: 30vw;
+    height: 40vh;
+}
